@@ -1,0 +1,12 @@
+<!-- arquivo web.xml -->
+<web-app>
+	<servlet>
+		<servlet-name>MinhaServlet</servlet-name>
+		<servlet-class>controller.ServletCalculadoraWeb</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MinhaServlet</servlet-name>
+		<url-pattern>/calculadoraServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
